@@ -670,11 +670,12 @@ span .btn-wrap{
   .hamburger-menu {
     display:none;
   }
-  .btn-transparent, .border-white{
+}
+@media (max-width: 1025px) {
+  header .btn-transparent {
     display: none;
   }
 }
-
 @media (min-width: 1025px) and (max-width: 1200px){
   .main-nav{
     height:106px;
