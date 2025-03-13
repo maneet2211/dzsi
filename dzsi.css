@@ -482,12 +482,16 @@ a.text{
     width: 100%;
     max-width: 100%;
 }
-
- .text-wrap
-{
+.features-menu .text-wrap{
   position: relative;
   color: #fff;
   transform: translateY(64px);
+  transition: transform 0.3s ease-in-out;
+}
+.carousal-tab .text-wrap
+{
+  position: relative;
+  color: #000;
   transition: transform 0.3s ease-in-out;
 }
  .inner-right-menu:hover .text-wrap{
@@ -2582,6 +2586,12 @@ font-family: "Red Hat Display", sans-serif;
 .carousal-tab .content-wrap .text-wrap .btn-wrap{
 margin-top:20px;
 }
+.carousal-tab .text-wrap .btn-wrap
+{
+  margin-top: 30px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
 .carousal-tab .content-wrap .text-wrap .btn-wrap .link-upright{
 cursor: pointer;
   position: relative;
@@ -2621,6 +2631,10 @@ cursor: pointer;
   padding-top: 31px;
   border-top: 2px solid #747e82;
   position: relative;
+}
+.carousel-tab .tabs-wrap .row {
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .carousal-tab .col-two .tabs-wrap .text-wrap{
 flex: 0 0 calc(100% - 192px);
