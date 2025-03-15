@@ -23,6 +23,12 @@
     position:relative;
     width:100%;
   }
+.main-nav>.container>.row {
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
   .main-nav .logo {
     flex: 0 0 104px;
     max-width: 104px;
@@ -40,7 +46,7 @@
     height:100%;
     width:100%;
     object-fit: contain;
-    margin-top: 30px;
+
   }
   .empty-link{
       cursor: pointer;
