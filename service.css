@@ -23,7 +23,7 @@
     position:relative;
     width:100%;
   }
-.main-nav>.container>.row {
+  .main-nav>.container>.row {
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: justify;
@@ -46,7 +46,6 @@
     height:100%;
     width:100%;
     object-fit: contain;
-
   }
   .empty-link{
       cursor: pointer;
@@ -1061,22 +1060,13 @@
 
   .banner-second{
     padding-top: 90px;
-    min-height: 660px;;
   }
   *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
-  .banner-second .gradient-purple-blue{
-    background: unset;
-  
-  }
-  .banner-second.curve-bottom-left .banner-second-bg{
-    clip-path: ellipse(315% 55% at 239% 32%);
-    min-height: 670px;
-    background: linear-gradient(to right, #c3c, #62b8e7);
-  }
+
   .banner-second .banner-second-bg{
     position: absolute;
     top: 0;
@@ -1160,7 +1150,6 @@
     width:100%;
     margin:0 auto;
    overflow: hidden;
-   padding: 96px 0;
    }
    *{
      box-sizing: border-box;
