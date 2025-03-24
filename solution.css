@@ -1066,10 +1066,6 @@
     padding: 0;
     margin: 0;
   }
-  .banner-second.curve-bottom-left .banner-second-bg{
-    clip-path: ellipse(315% 55% at 239% 32%);
-    min-height: 670px;
-  }
   .banner-second .banner-second-bg{
     position: absolute;
     top: 0;
